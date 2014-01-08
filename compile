@@ -1,9 +1,0 @@
-#!/bin/bash
-
-# Set up self and exports
-
-cat src/prefix.js \
-    bcrypt/bCrypt.js \
-    bigint/biginteger.js \
-    hmac/md5.js \
-    src/suffix.js > passwordly.js

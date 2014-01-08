@@ -1,3 +1,6 @@
+  var BigInteger = exports.BigInteger;
+  delete exports.BigInteger;
+
   var bcrypt_alphabet = './0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 
   var valueSplit = function(bignum) {
@@ -45,7 +48,7 @@
     return salt;
   };
 
-  exports.passwordly.generatePassword = function(password, site, callback) {
+  exports.generatePassword = function(password, site, callback) {
     var letters     = 'abcdefghijklmnopqrstuvwxyz';
     var u_letters   = letters.toUpperCase();
     var all_letters = letters + u_letters;

@@ -1,0 +1,22 @@
+{
+  "name": "passwordly",
+  "version": "0.0.1",
+  "homepage": "https://github.com/passwordly/passwordly-js",
+  "authors": [
+    "Josh Yudaken"
+  ],
+  "description": "Javascript implementation of password.ly algorithm",
+  "main": "passwordly.js",
+  "keywords": [
+    "password",
+    "passwordly",
+    "password.ly"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
